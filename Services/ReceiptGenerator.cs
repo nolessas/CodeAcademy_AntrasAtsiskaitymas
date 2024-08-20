@@ -1,4 +1,4 @@
-﻿using System.Text;
+using System.Text;
 using System.Net.Mail;
 using System.Net;
 using newConsoleApp2.Models;
@@ -9,8 +9,8 @@ namespace newConsoleApp2.Services
     {
         private const string SmtpServer = "smtp.gmail.com";
         private const int SmtpPort = 587;
-        private const string SenderEmail = "egi.petreikis@gmail.com";
-        private const string SenderPassword = "dcwt xftz wqqv bmkv";
+        private const string SenderEmail = "xxxxxxxx";
+        private const string SenderPassword = "xxxxxxx";
 
         public static void PrintReceipt(Order order, bool isForRestaurant)
         {
